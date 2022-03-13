@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: palegoldenrod;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 200px;
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(230, 62, 90);
+    transition: all 1s ease-in-out;
+    transition-property: background-color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s;
+    
+}
+.box:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: aqua;
+    /* transform: rotate(360deg); */
+    /* transform: skew(30deg); */
+    /* transform: scale(2); */
+    /* transform: translate(120px, 120px); */
+}
